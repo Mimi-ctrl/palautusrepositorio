@@ -38,13 +38,13 @@ class TestIntJoukko(unittest.TestCase):
         self.assertEqual(self.joukko.mahtavuus(), 2)
 
     def test_vain_lisatyt_luvut_loytyvat(self):
-        self.assertTrue(self.joukko.kuuluu(10))
-        self.assertFalse(self.joukko.kuuluu(5))
-        self.assertTrue(self.joukko.kuuluu(3))
+        self.assertTrue(self.joukko.kuuluuko(10))
+        self.assertFalse(self.joukko.kuuluuko(5))
+        self.assertTrue(self.joukko.kuuluuko(3))
 
     def test_poistettu_ei_ole_enaa_joukossa(self):
         self.joukko.poista(3)
-        self.assertFalse(self.joukko.kuuluu(3))
+        self.assertFalse(self.joukko.kuuluuko(3))
         self.assertEqual(self.joukko.mahtavuus(), 1)
 
     def test_palautetaan_oikea_taulukko(self):
