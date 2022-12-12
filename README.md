@@ -7,3 +7,4 @@
 * ### [Viikko 4](https://github.com/Mimi-ctrl/palautusrepositorio/tree/main/teht%C3%A4v%C3%A4t/viikko4)
 * ### [Viikko 5](https://github.com/Mimi-ctrl/palautusrepositorio/tree/main/teht%C3%A4v%C3%A4t/viikko5)
 * ### [Viikko 6](https://github.com/Mimi-ctrl/palautusrepositorio/tree/main/teht%C3%A4v%C3%A4t/viikko6)
+* ### [Viikko 7](https://github.com/Mimi-ctrl/palautusrepositorio/tree/main/teht%C3%A4v%C3%A4t/viikko7)
